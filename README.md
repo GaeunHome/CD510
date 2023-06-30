@@ -4,7 +4,7 @@
 <h4>後端編寫人員</h4>
 侯文家、吳彥霖
 <h4>核心技術</h4>
-HTML、CSS、JS、Bootstrap、JSP、MySQL、Tomcat 10.0
+HTML、CSS、Javascript、Bootstrap、JSP、MySQL、Tomcat 10.0
 
 # 專案歷程
 <h4>目的</h4>
