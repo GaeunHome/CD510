@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    background-color:gainsboro;
+    font-family: "cwTeXYen", sans-serif;
+}
+
+h1.title{
+    text-align: center;
+    font-size:40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#meau{
+    width:100%;
+}
+
+ul.meau_area {
+    list-style-type: none;
+
+    margin: 20px 20px 20px 20px;
+    padding: 0;
+    
+    overflow: hidden;
+    
+    background-color: #333;
+    
+    border-radius: 10px;
+}
+
+li.logo{
+    color: white;
+    text-decoration: none;    
+    text-align: center;
+    background-color: #333;
+    margin-left: 1%;
+    padding: 30px 50px 30px 20px;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+
+}
+  
+a.meau_choice {
+    display: inline-block;
+
+    color: white;
+    background-color: #333;
+    text-decoration: none;    
+    text-align: center;
+    
+    padding: 30px 20px 30px 20px;
+}
+  
+li > a.meau_choice:hover {
+    background-color: red;
+}
+
+/*菜單右方*/
+
+div.meau_right{
+    float: right;
+
+    margin-right: 2%;
+}
+
+a.meau_choice2 { 
+    display: inline-block;
+
+    color: white;
+    background-color: #333;
+    text-decoration: none;    
+    text-align: center;
+    
+    padding: 30px 20px 30px 20px;
+}
+
+.btnlog {
+
+    font-size: 20px;
+
+    color: white;
+    background-color: #333;
+    text-decoration: none;    
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
+
+a.meau_choice2:hover , a.drop_choice2:hover{
+    transform: scale(1.2);
+    transition:all 0.8s ease 0s;
+}
+
+/*項目*/
+
+h1.title2{
+    color: red;
+    margin-bottom:30px;
+    padding-top: 40px;
+    font-size:50px;
+}
+
+input.text_input{
+    border: 1px solid;
+    border-radius:10px;
+    height: 40px;
+}
+
+select {
+    background: white;
+    border: 1px solid;
+    margin-bottom: 25px;
+    width: 160px;
+    height: 40px;
+    padding: 8px;
+    position: relative;
+    border-radius: 10px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), linear-gradient(white,white);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), -webkit-linear-gradient(white,white);
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M7%2010l5%205%205-5z%22%2F%3E%3C%2Fsvg%3E"), -moz-linear-gradient(white,white);
+    background-position: right 0.5em top 50%, 0 0;
+    background-size: contain, cover;
+    background-repeat: no-repeat, repeat;
+  }
+
+div.big{
+    display: flex;
+    justify-content: center;
+}
+
+div.mid{
+    width:50%;
+    border-radius: 20px;
+    border-style: solid;
+}  
+
+div.list{
+    font-size: 20px;
+}
+
+div.list1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.btn-group{
+    font-size: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn{
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3e5293;
+    width: 80px;
+    height: 40px;
+    padding: 0;
+    color: #fff;
+    font-family: "cwTeXYen", sans-serif;
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+.btn{
+   margin-left: 20px; 
+}
+
+.btn:hover{
+    background-color: red;
+}

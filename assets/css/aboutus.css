@@ -1,0 +1,184 @@
+.blank
+{
+    background-color: white;
+    height: 117px;
+}
+
+.aboutusa{
+    text-align: center;
+    color: rgb(36, 35, 35);
+}
+
+.aboutusa1{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.aboutusa2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 200px;
+}
+
+.aboutusb{
+    text-align: center;
+    color: rgb(36, 35, 35);
+}
+
+.aboutusb1{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.people{
+    margin-top: 50px ;
+    background-color:rgb(233, 233, 229) ;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px ;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+/*新增部分*/
+.contnet
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contnetblock
+{
+    display: block;
+    height: 500px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    
+}
+.con
+{
+    background-color: rgba(0, 0, 0, 0.746);
+    border-radius: 10px;
+    border: 3px  solid gray;
+    width: 1000px;
+    margin: 20px auto;
+}
+.con  h2
+{
+   text-align: center;
+   color: wheat;
+   font-family: 'Noto Sans JP', sans-serif;
+   
+}
+.condetail
+{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    margin: 50px;
+}
+.condetail1
+{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+
+}
+.condetail span
+{
+    position: relative;
+    
+    left: 30px;
+}
+.callmeb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+  }
+/*以上為止*/
+.namebar
+{
+    position: relative;
+    width: 380px;
+    height: 30px;
+    margin: 10px;
+
+}
+.area
+{
+    position: relative;
+    margin: 10px;
+}
+.submit
+{
+    display: flex;
+}
+.btn
+{
+    position: relative;
+    color: white;  
+    background: #000000;
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+.btn:hover{
+    background: #3c3d3d;
+}
+.map
+{
+    position: relative;
+    left: 500px;
+    top: -300px;
+    overflow: hidden;
+}
+/*以上為止*/
+.peoplepic{
+    border-radius: 15px;
+}
+
+@media only screen and (max-width:450px) {
+
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    
+    header{
+      width: 100%;
+    }
+  
+    .search{
+      width: 80%;
+      margin-left: -10%;
+    }
+  
+    .aboutusa{
+        width: 400%;
+    }
+
+    .aboutusb{
+        width: 400%;
+    }
+
+  
+    footer{
+      width: 400%;
+    }
+  
+  }
+
