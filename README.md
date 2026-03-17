@@ -4,8 +4,6 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1)](https://www.mysql.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3)](https://getbootstrap.com/)
 
-110學年度第2學期 [MI236D]「網路程式設計」 - 期末專案「CD510」
-
 一個以販售專輯為主題的電商購物網站，具備會員系統、商品瀏覽、購物車、訂單記錄與後台管理功能。
 
 ## 團隊成員
