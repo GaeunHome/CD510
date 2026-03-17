@@ -94,62 +94,54 @@
 
 ```
 CD510/
-├── index.jsp                   # 首頁
 ├── config.jsp                  # 資料庫連線設定
 │
-├── login.jsp                   # 會員登入
-├── signup.jsp                  # 會員註冊
-├── logout.jsp                  # 登出
-├── check.jsp                   # 登入驗證
-├── issignin.jsp                # 登入狀態檢查
-├── setup.jsp                   # 會員設定
-├── updatemember.jsp            # 更新會員資料
-├── addvip.jsp                  # 註冊處理
+├── pages/                      # 前台頁面
+│   ├── index.jsp               # 首頁
+│   ├── chinese.jsp             # 華語專輯頁
+│   ├── korea.jsp               # 韓語專輯頁
+│   ├── japan.jsp               # 日語專輯頁
+│   ├── english.jsp             # 英語專輯頁
+│   ├── product.jsp             # 商品詳情頁
+│   ├── search.jsp              # 搜尋功能
+│   └── aboutus.jsp             # 關於我們
 │
-├── chinese.jsp                 # 華語專輯頁
-├── korea.jsp                   # 韓語專輯頁
-├── japan.jsp                   # 日語專輯頁
-├── english.jsp                 # 英語專輯頁
-├── product.jsp                 # 商品詳情頁
-├── search.jsp                  # 搜尋功能
-├── aboutus.jsp                 # 關於我們
+├── auth/                       # 會員認證
+│   ├── login.jsp               # 登入頁面
+│   ├── signup.jsp              # 註冊頁面
+│   ├── logout.jsp              # 登出
+│   ├── check.jsp               # 登入驗證
+│   ├── issignin.jsp            # 登入狀態檢查
+│   ├── setup.jsp               # 會員設定
+│   ├── updatemember.jsp        # 更新會員資料
+│   └── addvip.jsp              # 註冊處理
 │
-├── car.jsp                     # 購物車頁面
-├── addtocar.jsp                # 加入購物車
-├── shopcar_drop.jsp            # 移除購物車商品
-├── buy.jsp                     # 結帳處理
-├── order.jsp                   # 訂單記錄
+├── cart/                       # 購物車與訂單
+│   ├── car.jsp                 # 購物車頁面
+│   ├── addtocar.jsp            # 加入購物車
+│   ├── shopcar_drop.jsp        # 移除購物車商品
+│   ├── buy.jsp                 # 結帳處理
+│   └── order.jsp               # 訂單記錄
 │
-├── add.jsp                     # 評論功能
-├── add2.jsp                    # 評論功能（二）
-├── response.jsp                # 回饋表單
-├── return.jsp                  # 返回處理
+├── admin/                      # 後台管理
+│   ├── back_manage.jsp         # 管理主頁
+│   ├── back_new.jsp            # 新增商品頁
+│   ├── back_reset.jsp          # 修改商品頁
+│   ├── back_delete.jsp         # 刪除商品頁
+│   ├── addproduct.jsp          # 新增商品處理
+│   ├── alterproduct.jsp        # 修改商品處理
+│   ├── deleteproduct.jsp       # 刪除商品處理
+│   └── resetproduct.jsp        # 重設商品處理
 │
-├── back_manage.jsp             # 後台管理主頁
-├── back_new.jsp                # 後台新增商品
-├── back_reset.jsp              # 後台修改商品
-├── back_delete.jsp             # 後台刪除商品
-├── addproduct.jsp              # 新增商品處理
-├── alterproduct.jsp            # 修改商品處理
-├── deleteproduct.jsp           # 刪除商品處理
-├── resetproduct.jsp            # 重設商品處理
+├── misc/                       # 其他功能
+│   ├── add.jsp                 # 評論功能
+│   ├── add2.jsp                # 評論功能（二）
+│   ├── response.jsp            # 回饋表單
+│   └── return.jsp              # 返回處理
 │
 ├── assets/
 │   ├── css/                    # 樣式表
-│   │   ├── main.css            # 全域樣式
-│   │   ├── index.css           # 首頁
-│   │   ├── album.css           # 華語專輯頁
-│   │   ├── kalbum.css          # 韓語專輯頁
-│   │   ├── jalbum.css          # 日語專輯頁
-│   │   ├── enalbum.css         # 英語專輯頁
-│   │   ├── member.css          # 會員相關
-│   │   ├── car.css             # 購物車
-│   │   ├── order.css           # 訂單
-│   │   ├── aboutus.css         # 關於我們
-│   │   └── back.css            # 後台管理
 │   ├── js/                     # JavaScript
-│   │   ├── animation.js        # 動畫效果
-│   │   └── star.js             # 星星評分
 │   └── images/                 # 商品圖片與素材
 │
 ├── database/
